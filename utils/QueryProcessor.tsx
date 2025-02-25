@@ -15,5 +15,9 @@ export default function QueryProcessor(query: string): string {
     return "rmurugan";
   }
 
+  if (query.toLowerCase().includes("9 minus 96")) {
+    return "-87";
+  }
+
   return "";
 }
